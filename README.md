@@ -8,7 +8,7 @@ Build:
 
 Run:
 
-    cat astAutoProj.dot | docker run -i -a stdin -a stdout walery/dot-to-svg 
+    cat test.dot | docker run -i -a stdin -a stdout walery/dot-to-svg 
 
 On console you should see svg.
 
